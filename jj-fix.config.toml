@@ -1,0 +1,44 @@
+#:schema https://docs.jj-vcs.dev/latest/config-schema.json
+
+# Per-repo jj config for seeds-for-company-agents-uk.
+#
+# `jj` does not version-control its per-repo config — it lives at
+# `~/.config/jj/repos/<hash>/config.toml`. To keep this file as the single
+# source of truth in repo, on a fresh clone run:
+#
+#   pnpm install
+#   bash scripts/setup-jj-fix.sh
+#
+# The setup script symlinks the jj per-repo config path to this file.
+
+[fix.tools.oxfmt]
+command = ["$root/node_modules/.bin/oxfmt", "--stdin-filepath=$path"]
+patterns = [
+  "glob:'**/*.md'",
+  "glob:'**/*.mdx'",
+  "glob:'**/*.json'",
+  "glob:'**/*.jsonc'",
+  "glob:'**/*.json5'",
+  "glob:'**/*.yml' ~ glob:'**/pnpm-lock.yaml' ~ glob:'**/yarn.lock'",
+  "glob:'**/*.yaml' ~ glob:'**/pnpm-lock.yaml' ~ glob:'**/yarn.lock'",
+  "glob:'**/*.toml'",
+  "glob:'**/*.css'",
+  "glob:'**/*.scss'",
+  "glob:'**/*.less'",
+  "glob:'**/*.html'",
+  "glob:'**/*.vue'",
+  "glob:'**/*.svelte'",
+  "glob:'**/*.astro'",
+  "glob:'**/*.graphql'",
+  "glob:'**/*.hbs'",
+  "glob:'**/*.handlebars'",
+  "glob:'**/*.mjml'",
+  "glob:'**/*.js'",
+  "glob:'**/*.jsx'",
+  "glob:'**/*.mjs'",
+  "glob:'**/*.cjs'",
+  "glob:'**/*.ts'",
+  "glob:'**/*.tsx'",
+  "glob:'**/*.mts'",
+  "glob:'**/*.cts'",
+]

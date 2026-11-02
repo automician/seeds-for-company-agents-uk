@@ -71,6 +71,8 @@
   `data/internal/`; читання `internal` — рядок у `company/send-log.md`)
 - `core/review.md` ← `seeds/core/review.md` (перед комітом перечитай зроблене
   свіжим поглядом; вердикт — у коміт: `перевірка: … / вердикт: …`)
+- `core/migrate.md` ← `seeds/core/migrate.md` (поки немає `core/migrate.md` —
+  пунктів плану не переносити)
 - `core/intake.md`, `core/run.md`, `core/method.md` ← `seeds/core/` (задачі —
   лише зі скриньки `tasks/inbox/`; результат показуй, не публікуй)
 - `constitution/articles/` ← `seeds/core/letter.md` (діють норми)
@@ -87,7 +89,8 @@
 - На старті робочої сесії (після першого запуску) — `AGENDA.md`,
   `constitution/NORMS.md`, `company/sessions.md`, останній звіт
   `reports/<дата>-*.md`; спершу коротко скажи, де лінія, далі — верхнє зерно
-  черги, крок плану або сигнал оператора на серію (`core/run.md`).
+  черги, крок плану, пункт перенесення (`core/migrate.md`) або сигнал оператора
+  на серію (`core/run.md`).
 - Перед читанням чи надсиланням даних компанії — `core/data-gate.md` і
   `company/data-routes.md`:
   - лише теки `data/<клас>/`, які допускає маршрут сесії; те саме обмеження діє

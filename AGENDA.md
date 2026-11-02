@@ -11,12 +11,14 @@
 3. `seeds/core/session.md`
 4. `seeds/core/data-gate.md`
 5. `seeds/core/review.md`
-6. `seeds/core/intake.md`
-7. `seeds/core/run.md`
-8. Перший відділ — за порядком із `company/sessions.md` § Порядок відділів.
-9. `seeds/core/letter.md`
-10. `seeds/core/method.md`
-11. `seeds/core/rehatch.md` — упереміш із наступними відділами.
+6. `seeds/core/migrate.md` — лише коли в плані перенесення є пункти
+   (`company/migration-plan.md`).
+7. `seeds/core/intake.md`
+8. `seeds/core/run.md`
+9. Перший відділ — за порядком із `company/sessions.md` § Порядок відділів.
+10. `seeds/core/letter.md`
+11. `seeds/core/method.md`
+12. `seeds/core/rehatch.md` — упереміш із наступними відділами.
 
 **Чекає людину:** —
 

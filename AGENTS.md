@@ -61,7 +61,8 @@
 
 ## Артефакт → зерно
 
-Поки артефакту немає — роби те, що в дужках. Зерна в `seeds/` не редагуй;
+Поки артефакту немає — роби те, що в дужках. Наявних зерен у `seeds/` не
+редагуй; нове зерно відділу — `company/seeds/` (`seeds/first-run.md`, крок 7);
 виконане зерно — рядок в `AGENDA.md`.
 
 - `company/*` ← `seeds/first-run.md` (перший запуск, з людиною)
@@ -74,7 +75,8 @@
   лише зі скриньки `tasks/inbox/`; результат показуй, не публікуй)
 - `constitution/articles/` ← `seeds/core/letter.md` (діють норми)
 - `core/rehatch.sh` ← `seeds/core/rehatch.md` (наступну сесію запускає людина)
-- `departments/<відділ>/AGENTS.md` ← `seeds/departments/<відділ>.md` (нижче)
+- `departments/<відділ>/AGENTS.md` ← `seeds/departments/<відділ>.md` (нижче;
+  відділ без зерна — `company/seeds/<відділ>.md`, `seeds/first-run.md`, крок 7)
 
 ## Перед дією — прочитай
 
